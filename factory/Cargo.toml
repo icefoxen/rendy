@@ -32,10 +32,10 @@ rendy-wsi = { version = "0.1", path = "../wsi" }
 rendy-util = { version = "0.1", path = "../util" }
 
 gfx-hal = "0.1"
-gfx-backend-empty = { version = "0.1.0", optional = true }
-gfx-backend-dx12 = { version = "0.1.0", optional = true }
-gfx-backend-metal = { version = "0.1.0", optional = true }
-gfx-backend-vulkan = { version = "0.1.0", optional = true }
+gfx-backend-empty = { version = "0.2", optional = true }
+gfx-backend-dx12 = { version = "0.2", optional = true }
+gfx-backend-metal = { version = "0.2", optional = true }
+gfx-backend-vulkan = { version = "0.2", optional = true }
 
 derivative = "1.0"
 either = "1.0"
